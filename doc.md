@@ -61,3 +61,27 @@ A leírás alapján elkészítettem az új appot:
 ![alt text](image-7.png)
 
 ![alt text](image-8.png)
+
+Némi várakozás után sikeresen elindult minden.
+
+![alt text](image-9.png)
+
+Ezután az `minikube service -n argo-test-app argo-test-app1` parancs futtatására elindult a webaltaklazás a böngészőben.
+
+![alt text](image-10.png)
+
+## Tesztelés
+
+Átírtam a webalkalmazást, és push-oltam, amire a GitHub actions sikeresen le is futott.
+
+![alt text](image-11.png)
+
+Egy kis idő eltelte után az ArgoCD elkezdte frissíteni a már futó alkalmazást az új verzióra.
+
+![alt text](image-12.png)
+
+Ez gyorsan meg is történt, és már az új alkalmazás futott.
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
