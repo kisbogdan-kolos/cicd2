@@ -33,3 +33,11 @@ Majd összelinkeltem a lokális git repót.
 ```bash
 git remote add origin git@github.com:kisbogdan-kolos/cicd2.git
 ```
+
+Ezután beállítottam a GitHub-os környezeti változókat:
+
+![alt text](image-2.png)
+
+```bash
+git push --set-upstream origin master
+```
