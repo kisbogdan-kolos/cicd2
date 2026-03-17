@@ -41,3 +41,23 @@ Ezután beállítottam a GitHub-os környezeti változókat:
 ```bash
 git push --set-upstream origin master
 ```
+
+A repo-ban még be kellett kapcsolni, hogy a GitHub actions bot tudjon szerkeszteni is, és ne csak olvasni.
+
+![alt text](image-3.png)
+
+Ezután némi szenvedés árán már ment a CI, és fent is volt a Docker image a DockerHub-on.
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+## Deploy
+
+A leírás alapján elkészítettem az új appot:
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
